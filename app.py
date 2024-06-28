@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def get_home():
-    return "Hello, Maz!"
+    return "Hello, Maz! The file has changed so this will break the test."
 
 if __name__ == '__main__':
     app.run(
